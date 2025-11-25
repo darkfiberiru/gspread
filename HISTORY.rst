@@ -47,8 +47,9 @@ Release History
 ------------------
 
 * remove dependency on requests-2.27.0
+* Full Changelog: https://github.com/burnash/gspread/compare/v6.1.3...v6.1.4
 
-6.1.3 (2024-10-03)
+6.1.3 (2024-10-04)
 ------------------
 
 * ignore jinja CVE by @lavigne958 in https://github.com/burnash/gspread/pull/1481
@@ -129,7 +130,7 @@ New Contributor
 * Bump isort from 5.11.4 to 5.12.0 by @dependabot in https://github.com/burnash/gspread/pull/1165
 * bump flake8 to 6.0.0 by @alifeee in https://github.com/burnash/gspread/pull/1236
 * merge master into 6.0.0 by @lavigne958 in https://github.com/burnash/gspread/pull/1241
-* Remplace named tuples with enums by @lavigne958 in https://github.com/burnash/gspread/pull/1250
+* Replace named tuples with enums by @lavigne958 in https://github.com/burnash/gspread/pull/1250
 * Feature/add type hints worksheets by @lavigne958 in https://github.com/burnash/gspread/pull/1254
 * Implement hex color conversion by @idonec in https://github.com/burnash/gspread/pull/1270
 * remove lastUpdateTime by @alifeee in https://github.com/burnash/gspread/pull/1295
@@ -455,7 +456,7 @@ ter Christian Clauss <cclauss@me.com> 1630103641 +0200 (#869 by @cclaus)
 
 * fix editor_users_emails - get only from list not all users added to spreadsheet (#939 by @Lukasz)
 
-* add shadow method to get a named range from a speadsheet instance (#941 by @lavigne958)
+* add shadow method to get a named range from a spreadsheet instance (#941 by @lavigne958)
 
 * auto_resize_columns (#948 by @FelipeSantos75)
 
