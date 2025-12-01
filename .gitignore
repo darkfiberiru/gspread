@@ -6,6 +6,7 @@
 
 # secrets
 tests/creds.json
+test_minimal_scope.py
 
 # virtualenv
 env/
